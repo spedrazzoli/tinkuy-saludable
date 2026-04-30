@@ -408,8 +408,8 @@ button:hover {
   }
 
   .categoria {
-    font-size: 17px;
-    padding: 13px 14px;
+    font-size: 18px;
+    padding: 16px;
     margin: 8px 0;
   }
 

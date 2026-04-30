@@ -245,12 +245,6 @@ function estilosGenerales() {
   padding: 30px;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 15px auto;
-  max-width: 200px;
-}
-
 .card {
   background: #fffaf0;
   max-width: 900px;
@@ -293,6 +287,7 @@ h1 {
   border-radius: 25px;
   text-decoration: none;
   font-weight: bold;
+  z-index: 99999;
 }
 
 .precios {
@@ -314,7 +309,9 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-top: 20px;
 }
+
 h2 {
   font-size: 20px;
   font-weight: bold;
@@ -348,9 +345,6 @@ button:hover {
   padding-bottom: 10px;
 }
 
-.producto {
-  margin-top: 20px;
-}
   .acciones {
   display: flex;
   gap: 10px;
@@ -386,6 +380,65 @@ button:hover {
 .btn-secundario:hover {
   background: #e8a4a8;
   color: white;
+}
+
+@media (max-width: 900px) {
+  body {
+    padding: 8px;
+  }
+
+  .card {
+    width: auto;
+    max-width: none;
+    padding: 18px;
+    margin: 15px 8px;
+  }
+
+  .logo {
+    max-width: 160px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .categoria {
+    font-size: 22px;
+    padding: 20px 16px;
+    margin: 10px 0;
+  }
+
+  .precio {
+    font-size: 22px;
+    padding: 16px;
+  }
+
+  button {
+    font-size: 22px;
+    padding: 16px;
+    min-height: 55px;
+  }
+
+  .acciones a {
+    font-size: 20px;
+    padding: 16px;
+  }
+
+  .precios {
+    flex-direction: column;
+  }
+
+  .carrito-link {
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    padding: 12px 15px;
+    z-index: 99999;
+  }
 }
     </style>
   `;
@@ -441,6 +494,8 @@ app.get("/", (req, res) => {
     <html>
       <head>
         <title>Lista de Precios</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         ${estilosGenerales()}
       </head>
 
@@ -475,6 +530,8 @@ app.get("/categoria/:nombre", (req, res) => {
     <html>
       <head>
         <title>${nombreCategoria}</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         ${estilosGenerales()}
       </head>
 
@@ -551,6 +608,8 @@ app.get("/carrito", (req, res) => {
     <html>
       <head>
         <title>Carrito</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         ${estilosGenerales()}
       </head>
 

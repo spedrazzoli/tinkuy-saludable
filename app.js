@@ -383,69 +383,59 @@ button:hover {
 }
 
 @media (max-width: 900px) {
-  body {
-    padding: 8px;
-    .hoja-der {
-  transform: rotate(-15deg);
-}
 
-.hoja-izq {
-  transform: scaleX(-1) rotate(-15deg);
-}
-  .card {
-  max-width: 100%;
-  width: 100%;
-  margin: 10px 0;
-  padding: 20px;
-}
-  .categoria {
-  font-size: 18px;
-  padding: 16px;
-}
-  h1 {
-  font-size: 26px;
-}
+  body {
+    padding: 6px;
   }
 
   .card {
     width: auto;
-    max-width: none;
-    padding: 18px;
-    margin: 15px 8px;
+    max-width: 100%;
+    padding: 14px;
+    margin: 10px 6px;
   }
 
   .logo {
-    max-width: 160px;
+    max-width: 150px;
   }
 
   h1 {
-    font-size: 30px;
-  }
-
-  h2 {
     font-size: 24px;
   }
 
+  h2 {
+    font-size: 20px;
+  }
+
   .categoria {
-    font-size: 22px;
-    padding: 20px 16px;
-    margin: 10px 0;
+    font-size: 17px;
+    padding: 13px 14px;
+    margin: 8px 0;
+  }
+
+  .detalle {
+    font-size: 14px;
+  }
+
+  .producto {
+    font-size: 16px;
+    margin-top: 14px;
   }
 
   .precio {
-    font-size: 22px;
-    padding: 16px;
+    font-size: 17px;
+    padding: 12px;
   }
 
   button {
-    font-size: 22px;
-    padding: 16px;
-    min-height: 55px;
+    font-size: 17px;
+    padding: 12px;
+    min-height: 46px;
   }
 
   .acciones a {
-    font-size: 20px;
-    padding: 16px;
+    font-size: 16px;
+    padding: 12px;
   }
 
   .precios {
@@ -453,12 +443,23 @@ button:hover {
   }
 
   .carrito-link {
-    top: 10px;
-    right: 10px;
-    font-size: 18px;
-    padding: 12px 15px;
+    top: 8px;
+    right: 8px;
+    font-size: 15px;
+    padding: 10px 13px;
     z-index: 99999;
   }
+
+  .hoja-der {
+    transform: rotate(-15deg);
+    width: 150px;
+  }
+
+  .hoja-izq {
+    transform: scaleX(-1) rotate(-15deg);
+    width: 150px;
+  }
+
 }
     </style>
   `;

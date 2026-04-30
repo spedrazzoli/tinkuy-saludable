@@ -223,8 +223,8 @@ function estilosGenerales() {
 .hoja-izq {
   position: absolute;
   top: 40px;
-  left: 220px;
-  width: 260px;
+  left: 70px;
+  width: 70px;
   opacity: 0.9;
   z-index: 2;
   clip-path: inset(0 0 0 50%);

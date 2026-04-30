@@ -445,20 +445,24 @@ button:hover {
   .carrito-link {
     top: 8px;
     right: 8px;
-    font-size: 15px;
-    padding: 10px 13px;
+    font-size: 13px;
+    padding: 8px 10px;
     z-index: 99999;
   }
 
-  .hoja-der {
-    transform: rotate(-15deg);
-    width: 150px;
-  }
-
   .hoja-izq {
-    transform: scaleX(-1) rotate(-15deg);
-    width: 150px;
-  }
+  top: 75px;
+  left: 90px;
+  width: 120px;
+  transform: scaleX(-1) rotate(-18deg);
+}
+
+  .hoja-der {
+  top: 75px;
+  right: 90px;
+  width: 120px;
+  transform: rotate(-18deg);
+}
 
 }
     </style>

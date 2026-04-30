@@ -223,8 +223,8 @@ function estilosGenerales() {
 .hoja-izq {
   position: absolute;
   top: 40px;
-  left: 70px;
-  width: 70px;
+  left: 220px;
+  width: 260px;
   opacity: 0.9;
   z-index: 2;
   clip-path: inset(0 0 0 50%);
@@ -452,15 +452,15 @@ button:hover {
 
   .hoja-izq {
   top: 75px;
-  left: 90px;
-  width: 120px;
+  left: 220px;
+  width: 240px;
   transform: scaleX(-1) rotate(-18deg);
 }
 
   .hoja-der {
   top: 75px;
-  right: 90px;
-  width: 120px;
+  right: 220px;
+  width: 240px;
   transform: rotate(-18deg);
 }
 

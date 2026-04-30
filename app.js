@@ -385,6 +385,26 @@ button:hover {
 @media (max-width: 900px) {
   body {
     padding: 8px;
+    .hoja-der {
+  transform: rotate(-15deg);
+}
+
+.hoja-izq {
+  transform: scaleX(-1) rotate(-15deg);
+}
+  .card {
+  max-width: 100%;
+  width: 100%;
+  margin: 10px 0;
+  padding: 20px;
+}
+  .categoria {
+  font-size: 18px;
+  padding: 16px;
+}
+  h1 {
+  font-size: 26px;
+}
   }
 
   .card {

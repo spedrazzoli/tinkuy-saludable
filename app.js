@@ -453,14 +453,14 @@ button:hover {
   .hoja-izq {
   top: 75px;
   left: 70px;
-  width: 70px;
+  width: 150px;
   transform: scaleX(-1) rotate(-18deg);
 }
 
   .hoja-der {
   top: 75px;
   right: 70px;
-  width: 70px;
+  width: 150px;
   transform: rotate(-18deg);
 }
 

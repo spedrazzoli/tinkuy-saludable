@@ -447,6 +447,7 @@ button:hover {
     right: 8px;
     font-size: 13px;
     padding: 8px 10px;
+    border-radius: 16px;
     z-index: 99999;
   }
 
